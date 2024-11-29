@@ -9,7 +9,7 @@ function Dropdown({ title, items }) {
 
   return (
     <div>
-      <div className="text-colorGray flex justify-between items-center  p-1 my-2">
+      <div className="text-colorGray flex justify-between items-center  p-1 my-2 a">
         <p onClick={toggleDropdown} className="cursor-pointer">
           {title}
         </p>
